@@ -56,7 +56,7 @@ function Showcase(props) {
         setCharts(getShowcase(resp["data"]["charts"], "playlist"))
 
         //Artist:
-        setArtists(getShowcase(resp["data"]["artists"], "radio"))
+        setArtists(getShowcase(resp["data"]["artists"], "songs"))
 
         props.setProgress(100)
     }
