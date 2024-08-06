@@ -36,6 +36,7 @@ function Footer(props) {
                   clip-rule="evenodd"
                 />
               </svg>
+            </Typography>
             </footer>
         </div>
     )
